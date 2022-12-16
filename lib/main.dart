@@ -31,7 +31,7 @@ class _Practice7State extends State<Practice7> {
       backgroundColor: Color(0xffD9A8FF),
       body: Center(
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
+       
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
@@ -40,7 +40,7 @@ class _Practice7State extends State<Practice7> {
             const Text("Вход",
                 style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20)),
 
-            // SizedBox(height: height * 0.044),
+            
             Padding(
               padding:
                   EdgeInsets.only(top: height * 0.044, bottom: height * 0.0246),
@@ -66,9 +66,7 @@ class _Practice7State extends State<Practice7> {
                 ),
               ),
             ),
-            // SizedBox(
-            //   height: height*0.0246,
-            // ),
+            
             SizedBox(
               width: width * 0.904,
               height: height * 0.0615,
