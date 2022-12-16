@@ -77,8 +77,8 @@ class _Practice7State extends State<Practice7> {
                         
               ),
             ),
-            SizedBox(height: height*0.0812,),
             Container(
+              margin: EdgeInsets.only(top: height*0.0812),
               width: width*0.352,
               height: height * 0.0615,
               decoration: BoxDecoration(
